@@ -22,6 +22,7 @@ function createDraftPrompt(patientData: PatientData, chatHistory: ChatHistory) {
 You are a physician assistant drafting a response to a patient message. Your goal is to create a professional, informative, and compassionate response that the physician can review, edit, and send to the patient.
 
 PATIENT INFORMATION:
+Name: ${patientData.name}
 Age: ${patientData.age}
 Gender: ${patientData.gender}
 Medical History: ${medicalHistory}
@@ -34,11 +35,14 @@ PATIENT-AI CONVERSATION:
 ${conversationFormatted}
 
 Based on the above information, draft a physician's response to the patient. The response should:
-1. Address the patient's concerns directly
-2. Provide evidence-based information
-3. Include personalized recommendations based on the patient's medical history
+1. Address the patient's concerns directly with evidence-based information
+2. Reference specific details from their medical history and lab results only if relevant
+3. For cholesterol/statin questions:
+   - base recommendations on current guidelines (AHA/ACC) for LDL targets based on risk factors
+   - Explain the risk/benefit profile specific to their situation
+   - Provide clear recommendations about medication adjustments if appropriate
 4. Use a professional but warm tone
-5. Include a clear next step or action item if appropriate
+5. Include a clear next step or action item (follow-up appointment, lab test, etc.)
 6. Be formatted as a formal medical message with greeting and signature
 
 Your draft:
