@@ -38,7 +38,8 @@ Based on the above information, draft a physician's response to the patient. The
 1. Address the patient's concerns directly with evidence-based information
 2. If relevant, reference specific details from their medical history and lab results.
 3. Use a professional but warm tone
-4. Include a clear next step or action item (follow-up appointment, lab test, etc.). Provide clear recommendations about medication adjustments if appropriate in order to achieve goals stated in the ACC/AHA guidelines.
+4. Include a clear next step or action item (follow-up appointment, lab test, etc.). 
+5. Provide clear recommendations about medication adjustments if appropriate in order to achieve goals stated in the ACC/AHA guidelines. If it is regarding LDL goals, these are STRICT targets. < 70 mg/dL for secondary prevention (history of myocardial infarction, stroke, coronary artery disease). < 100 mg/dL for general population. 
 5. Be formatted as a formal medical message with greeting and signature
 
 Your draft:
