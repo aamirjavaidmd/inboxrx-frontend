@@ -36,13 +36,10 @@ ${conversationFormatted}
 
 Based on the above information, draft a physician's response to the patient. The response should:
 1. Address the patient's concerns directly with evidence-based information
-2. Reference specific details from their medical history and lab results only if relevant
-3. For cholesterol/statin questions:
-   - base recommendations on current guidelines (AHA/ACC) for LDL targets based on risk factors
-   - Explain the risk/benefit profile specific to their situation
-   - Provide clear recommendations about medication adjustments if appropriate
+2. If relevant, reference specific details from their medical history and lab results.
+3. Provide clear recommendations about medication adjustments if appropriate
 4. Use a professional but warm tone
-5. Include a clear next step or action item (follow-up appointment, lab test, etc.)
+5. Include a clear next step or action item (follow-up appointment, lab test, etc.). Provide clear recommendations about medication adjustments if appropriate in order to achieve goals stated in the ACC/AHA guidelines.
 6. Be formatted as a formal medical message with greeting and signature
 
 Your draft:
