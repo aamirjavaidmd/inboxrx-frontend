@@ -6,7 +6,7 @@ import type { PatientData } from "@/lib/types"
 const defaultPatientData: PatientData = {
   age: 65,
   gender: "Male",
-  medical_history: ["Coronary artery disease", "Hypertension", "Type 2 diabetes", "Hyperlipidemia"],
+  medical_history: ["Myocardial Infarction", "Hypertension", "Type 2 diabetes", "Hyperlipidemia"],
   current_medications: [
     "Atorvastatin 40mg daily",
     "Metformin 1000mg twice daily",
