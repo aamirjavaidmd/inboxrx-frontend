@@ -35,7 +35,7 @@ export default function DemoPage() {
       <h1 className="text-3xl font-bold">InboxRx Demo</h1>
 
       <ApiKeyStatus />
-     #<MedRAGStatus />
+      {<MedRAGStatus />}
 
       <Tabs defaultValue="patient" value={activeTab} onValueChange={setActiveTab} className="w-full">
         <TabsList className="grid w-full grid-cols-3">
